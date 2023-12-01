@@ -30,6 +30,6 @@ ENV VEHICLEDATABROKER_DAPR_APP_ID=vehicledatabroker
 
 ENV PYTHONUNBUFFERED=yes
 
-LABEL org.opencontainers.image.source="https://github.com/eclipse/services"
+LABEL org.opencontainers.image.source="https://github.com/eclipse/kuksa.val.services"
 
 CMD ["python3", "/mock/mockservice.py"]
